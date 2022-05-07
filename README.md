@@ -1,16 +1,10 @@
 # Quantile-Based-Clustering
-In this repositori is available an implementation of the Quantile-based clustering algorithm introduced in [1].
+In this repositori is available an implementation of the Quantile-based clustering algorithm introduced in 
+[1].
+
 For now only the simplest of the 4 algorithms is introduce, the one with common $\theta$ and unscaled variable.
-The class containing the algorithm is in the file $\verb|QuClu.py|$ while in the jupyter notebook an example is avaible.
+The class containing the algorithm is in the file QuClu.py while in the jupyter notebook an example is avaible.
+In future I will upload the code for all 4 algorithm and make it a library
 
 ## Bibliography
-@article{hennig2019quantile,
-  title={Quantile-based clustering},
-  author={Hennig, Christian and Viroli, Cinzia and Anderlucci, Laura},
-  journal={Electronic Journal of Statistics},
-  volume={13},
-  number={2},
-  pages={4849--4883},
-  year={2019},
-  publisher={Institute of Mathematical Statistics and Bernoulli Society}
-}
+[1] Hennig, Christian, Cinzia Viroli, and Laura Anderlucci. "Quantile-based clustering." Electronic Journal of Statistics 13.2 (2019): 4849-4883.
